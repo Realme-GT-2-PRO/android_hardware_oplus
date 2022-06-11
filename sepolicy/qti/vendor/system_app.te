@@ -3,3 +3,6 @@ rw_dir_file(system_app, vendor_sysfs_fastcharge)
 
 # Battery Health
 r_dir_file(system_app, vendor_sysfs_usb_supply)
+
+# Zram
+r_dir_file(system_app, sysfs_zram)
